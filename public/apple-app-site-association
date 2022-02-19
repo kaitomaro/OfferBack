@@ -1,0 +1,14 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "L9B286B488.jp.co.eatap",
+                "paths": [
+                    "/api/verify",
+                    "/coupon/*"
+                ]
+            }
+        ]
+    }
+}

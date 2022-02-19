@@ -1,0 +1,72 @@
+.raw {
+	margin-top: 40px;
+}
+
+.store_name {
+	margin-bottom: 20px;
+}
+
+.store_title {
+	font-size: 20px;
+}
+
+.store_info{
+	background-color: #fff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 10px;
+}
+
+.store_info li {
+	list-style: none;
+}
+
+.edit_basic , .edit_service, .edit_menu, .edit_coupon, .edit_special_coupon, .edit_image{
+	padding-left: 40px;
+	cursor: pointer;
+}
+
+.service_info, .menu_info, .coupon_info, .special_coupon_info, .img_info{
+	margin-top: 50px;
+}
+
+.service_list, .menu_list, .coupon_info, .special_coupon_info {
+	margin-top: 20px;
+}
+
+.service_title, .service_edit_icon,.menu_edit_icon, .menu_title, .coupon_title, .special_coupon_title, .coupon_edit_icon, .special_coupon_edit_icon, .image_title, .image_edit_icon {
+	display: inline-block;
+}
+
+.service_edit_icon, .menu_edit_icon, .coupon_edit_icon,.special_coupon_edit_icon, .image_edit_icon {
+	float: right;
+}
+.image_info_border {
+	margin-bottom: 2rem;
+}
+.service_title_container, .menu_title_container, .coupon_title_container, .special_coupon_title_container,.image_title_container {
+	font-size: 17px;
+	/*padding-bottom: 5px;*/
+	margin: 0 2em;
+	border-bottom: 1px solid #ccc;
+}
+.image_content{
+	width: 100%;
+	text-align: center;
+	margin: 0 2em;
+}
+
+.images_frame {
+	margin-top: 1rem;
+	text-align: left;
+}
+
+.img_width {
+	width: 14%;
+	margin-right: 4%;
+	text-align: left;
+}
+
+.special_coupon_info_border {
+	margin: 10px 2.5rem;
+}

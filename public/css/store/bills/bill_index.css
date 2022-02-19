@@ -1,0 +1,32 @@
+.store_info{
+	background-color: #fff;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	border-radius: 10px;
+}
+
+@media (min-width: 57px){
+	.menu {
+		border-radius: 5px;
+		/*padding: 20px 0;*/
+		width: 95%;
+		margin: 20px auto;
+		text-align: left;
+	}
+	.preview{
+		margin-top: 10px;
+	}
+}
+
+@media (min-width: 768px){
+	.change_position {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.menu {		
+		width: 95%;
+		margin: 20px auto;
+		text-align: left;
+	}
+}

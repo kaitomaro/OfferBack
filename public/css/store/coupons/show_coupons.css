@@ -1,0 +1,83 @@
+.store_info{
+	background-color: #fff;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	border-radius: 10px;
+}
+
+@media (min-width: 768px){
+	.change_position {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+}
+
+.coupons {
+	text-align: left;
+	margin: 10px 5%;
+}
+
+.checked_menu {
+	display: none;
+}
+
+.btn_position{
+	margin-top: 20px;
+}
+
+.switch_frame {
+	margin-top: 2rem;
+}
+
+.toggle-input {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 5;
+	opacity: 0;
+	cursor: pointer;
+	}
+
+.toggle-label {
+	width: 50px;
+	height: 25px;
+	background: #ccc;
+	position: relative;
+	display: inline-block;
+	border-radius: 46px;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	box-sizing: border-box;
+}
+.toggle-label:after {
+	content: '';
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.toggle-input:checked + .toggle-label {
+	background-color: #4BD865;
+}
+.toggle-input:checked + .toggle-label:after {
+	left: 30px;
+}
+
+
+.select_way_discounting {
+	margin-left: 10px;
+}
+
+.discount:disabled{
+	background-color: rgba(255, 255, 255, 0.2);
+	opacity: 0.1;
+}

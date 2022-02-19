@@ -1,0 +1,104 @@
+.store_info{
+	background-color: #fff;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	border-radius: 10px;
+}
+
+.button_position{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.submit_button {
+	margin-top: 40px;
+	padding: 10px 120px;
+}
+
+.menu_element {
+	margin-bottom: 20px;
+}
+
+.add_button_position {
+	text-align: left;
+	margin-top:10px;
+	margin-left: 2.5%;
+}
+
+label.required:after {
+	margin-left: 1.0em;
+	padding: 0px 6px 0px 6px;
+	border-radius: 4px;
+	font-size: 0.6em;
+	color: white;
+	background-color: #C44;
+	content: "必須";
+}
+
+label.optional:after {
+	margin-left: 1.0em;
+	padding: 0px 6px 0px 6px;
+	border-radius: 4px;
+	font-size: 0.6em;
+	color: white;
+	background-color: #55baff;
+	content: "任意";
+}
+
+.delete_button_link {
+	text-decoration: none;
+}
+
+.delete_button {
+	font-size: 25px;
+	color: rgba(170, 30, 30, 0.8);
+	padding: 0px;
+	border: none;
+}
+
+.delete_button:hover {
+	color: rgba(250, 30, 30, 0.8);
+	font-size: 25px;
+}
+
+#preview {
+	height: 50px;
+}
+
+@media (min-width: 57px){
+	.menu_content{
+		width: 90%;
+		margin: 10px auto;
+	}
+
+	.menu {
+		border: solid 1px #bbb;
+		border-radius: 5px;
+		/*padding: 20px 0;*/
+		width: 95%;
+		margin: 20px auto;
+		text-align: left;
+	}
+}
+
+@media (min-width: 768px){
+	.change_position {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.menu {
+		border: solid 1px #bbb;
+		border-radius: 5px;
+		width: 95%;
+		margin: 20px auto;
+		text-align: left;
+
+	}
+
+	.menu_content {
+		width: 80%;
+		margin: 20px auto;
+	}
+
+}

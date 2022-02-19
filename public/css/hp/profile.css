@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "hiragino-kaku-gothic-std-w8";
+  src: url("/font/hiragino-kaku-gothic-std-w8.otf");
+}
+
+@font-face {
+  font-family: "hiragino-kaku-gothic-pro-w3";
+  src: url("/font/hiragino-kaku-gothic-pro-w3.otf");
+}
+
+.mission {
+  margin: 0 auto;
+  padding: var(--spacing-l) 0;
+  width: var(--content-width-desktop);
+  max-width: var(--content-max-width);
+  text-align: center;
+}
+
+.mission__heading {
+  margin-top: 10vh;
+  font-family: "hiragino-kaku-gothic-std-w8";
+  font-size: var(--font-size-s);
+  padding: var(--spacing-xs) 0;
+}
+
+.eatap_logo {
+  color: var(--palette-main);
+  font-size: var(--font-size-m);
+}
+
+.mission__sub-heading {
+  position: relative;
+  display: inline-block;
+  font-family: "hiragino-kaku-gothic-std-w8";
+  font-size: var(--font-size-l);
+  margin-bottom: var(--spacing-l);
+}
+
+/* .mission__sub-heading::after {
+  content: '';
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/point.svg);
+  background-size: contain;
+  vertical-align: middle;
+} */
+
+.mission__sub-heading-br {
+  display: inline-block;
+}
+
+.mission__sub-heading-icon {
+  position: absolute;
+  float: left;
+  right: -50px;
+  bottom: -25px;
+}
+
+.mission__p {
+  font-family: "hiragino-kaku-gothic-pro-w3";
+  font-size: 1.0rem;
+  font-weight: bold;
+  line-height: 2.0rem;
+  padding: var(--spacing-xs) 0;
+}
+
+.mission__br {
+  display: inline-block;
+}
+
+.about {
+  margin: 0 auto;
+  padding: var(--spacing-l) 0;
+  width: var(--content-width-desktop);
+  max-width: var(--content-max-width);
+}
+
+.about__heading-container {
+  text-align: center;
+}
+
+.about__heading {
+  font-family: "hiragino-kaku-gothic-std-w8";
+  font-size: var(--font-size-m);
+}
+
+.about__heading-jp {
+  font-family: "hiragino-kaku-gothic-pro-w3";
+  font-size: var(--font-size-xs);
+}
+
+.about__table {
+  margin: 0 auto;
+  padding: var(--spacing-m) 0;
+  width: var(--content-width-desktop);
+  max-width: var(--content-max-width);
+  height: auto;
+  text-align: left;
+}
+
+.about__tr {
+  height: 2.8rem;
+}
+
+.about__th {
+  font-family: "hiragino-kaku-gothic-std-w8";
+}
+
+.about__td {
+  font-family: "hiragino-kaku-gothic-pro-w3";
+}
+
+.about__br {
+  display: inline-block;
+}
+
+@media screen and (max-width: 1024px) {
+  .mission {
+    width: var(--content-width-mobile);
+  }
+  .mission__sub-heading {
+    display: inline-block;
+    font-family: "hiragino-kaku-gothic-std-w8";
+    font-size: var(--font-size-s);
+    margin-bottom: var(--spacing-m);
+  }
+  .mission__sub-heading-icon {
+    display: none;
+  }
+  .mission__p {
+    font-size: var(--font-size-xs);
+  }
+  .about {
+    width: var(--content-width-mobile);
+  }
+  .about__table {
+    width: 100%;
+  }
+}

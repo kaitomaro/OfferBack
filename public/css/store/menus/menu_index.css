@@ -1,0 +1,139 @@
+.store_info{
+	background-color: #fff;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	border-radius: 10px;
+}
+
+@media (min-width: 57px){
+	.menu {
+		border-radius: 5px;
+		/*padding: 20px 0;*/
+		width: 95%;
+		margin: 20px auto;
+		text-align: left;
+	}
+	.preview{
+		margin-top: 10px;
+	}
+}
+
+@media (min-width: 768px){
+	.change_position {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.menu {		
+		width: 95%;
+		margin: 20px auto;
+		text-align: left;
+	}
+}
+.edit_button {
+	background-color: rgba(0,0,0,0);;
+	color: #00bfff;
+	border: none;
+}
+
+.add_button {
+    text-align: center;
+}
+
+.name, .price, .submit_button{
+    display: none;
+}
+
+.set_width{
+    width: 100%;
+    max-width: 100%;
+}
+
+.gray {
+	margin-right: 20px;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.05);
+	border-top: 1px solid rgba(0, 0, 0, 0.05);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.white {
+	background-color: white;
+	margin-right: 20px;
+	padding: 20px;
+}
+
+.course_menus_frame {
+	text-align: left;
+	margin-left: 2.5%;
+}
+
+.course_name_frame {
+	width: 48%;
+	display: inline-block;
+}
+
+.cource_price_frame {
+	width: 40%;
+	display: inline-block;
+	margin-left: 2.5%;
+}
+
+.course_title{
+	text-align: left;
+	margin-left: 2.5%;
+}
+
+.cource_detail_frame {
+	margin-top: 10px;
+
+}
+
+.course_button_frame{
+	margin-top: 30px;
+	float: right;
+	display: inline-block;
+	width: 5%;
+}
+
+.course_title_frame{
+	margin-right: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	background-color: rgba(0, 0, 0, 0.05);
+	border-top: 1px solid rgba(0, 0, 0, 0.05);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.name_title{
+	display: inline-block;
+	width: 48%;
+}
+
+.price_title{
+	display: inline-block;
+	width: 40%;
+	margin-left: 2.5%;
+}
+
+.cource_submit_button{
+	margin-top: 10px;
+	text-align: right;
+}
+
+.course_edit{ 
+	display: none;
+}
+
+.danger_position {
+	margin-left: 0.5rem;
+}
+
+.button_frame, .shown_button, .add_frame {
+	text-align: right;
+}
+
+.edit_button, .add_button {
+	margin-right: 0.5rem;
+}
